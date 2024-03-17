@@ -22,6 +22,62 @@ body {
 }
 
 .navbar--title {
-    font-size: 21px;
+    font-size: 1.3125rem;
     color: white;
+}
+
+.form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top--text--container,
+.bottom--text--container {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin: 32px;
+}
+
+input {
+    height: 35px;
+    border-radius: 5px;
+    border-color: #D1D5DB;
+    text-indent: 5px;
+    font-family: "Karla", sans-serif;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+label {
+   font-size: 0.875rem;
+   font-family: "Karla", sans-serif;
+}
+
+.button--container {
+    width: 507px;
+    display: flex;
+    justify-content: center;
+}
+
+.generate--button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    border: none;
+    color: white;
+    font-weight: 450;
+    font-family: "Karla", sans-serif;
+    cursor: pointer;
 }

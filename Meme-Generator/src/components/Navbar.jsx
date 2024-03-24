@@ -4,9 +4,13 @@ import trollImage from '../images/Troll-Face.png';
 
 export default function Navbar() {
     return (
-        <nav className='navbar--container'>
-            <img src={trollImage} className="troll--image"/>
-            <h1 className="navbar--title">MemeGenerator</h1>
-        </nav>
+        <header className="header">
+            <img 
+                src={trollImage} 
+                className="header--image"
+            />
+            <h2 className="header--title">Meme Generator</h2>
+            <h4 className="header--project">React Course - Project 3</h4>
+        </header>
     )
 }
